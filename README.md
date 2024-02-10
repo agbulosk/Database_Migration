@@ -8,4 +8,4 @@ SQL Server script that creates a stored procedure and uses cursors to copy data 
 
 ## Limitations
 
-The main SQL script does not copy any keys, constraints, etc. from the source databases into the destination database. This script soley demonstrates on how to copy data from multiple databases into a destination database.
+The main SQL script does not copy any keys, constraints, etc. from the source databases into the destination database. This script soley demonstrates on how to copy data from multiple databases into a destination database. Also, this script only copies data within the same SQL Server instance and not across different SQL Server instances.
